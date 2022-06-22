@@ -47,5 +47,4 @@ public class UserController {
         userService.updateNote(note);
         return userService.getUser(note.getEmail());
     }
-
 }

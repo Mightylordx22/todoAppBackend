@@ -32,10 +32,4 @@ public class User {
         assert note != null;
         note.setMessage(message);
     }
-
-//    public User(String email, List<Note> notes) {
-//        this.email = email;
-//        this.notes = notes;
-//    }
-
 }

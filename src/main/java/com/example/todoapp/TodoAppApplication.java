@@ -17,18 +17,4 @@ public class TodoAppApplication {
         SpringApplication.run(TodoAppApplication.class, args);
     }
 
-//    @Bean
-//    CommandLineRunner runner(UserRepository userRepository) {
-//        return args -> {
-//            Note note = new Note("Message1");
-//            Note note2 = new Note("Message2");
-//            Note note3 = new Note("Message3");
-//
-//            List<Note> notes = List.of(note, note2, note3);
-//
-//            User user = new User("adam@mightylordx.uk", notes);
-//          userRepository.insert(user);
-//        };
-//    }
-
 }
